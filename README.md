@@ -1,21 +1,21 @@
-# Тема «Yohoho-theme»
+# Space Players
 
-![Тема «Yohoho-theme» nodejs](https://raw.githubusercontent.com/theme-masters/Yohoho-theme/master/screenshot.png)
+![Space Players](https://i.imgur.com/y8Ukkis.png)
 
-:art: Тема «Yohoho-theme»
+:art: Space Players
 
 ## Как установить?
-1. Скачать архив с [GitHub](https://github.com/theme-masters/Yohoho-theme/archive/refs/heads/main.zip)
-2. Распаковать архив на сервер в папку **themes**
+1. Скачать архив с [GitHub](https://github.com/spaceplayers/spaceplayers.github.io/archive/refs/heads/main.zip)
+2. Распаковать архив на сервер в папку themes
 3. Изменить название темы в админ-панели
 
-![агрегатор плееров Yohoho-theme](https://raw.githubusercontent.com/theme-masters/Yohoho-theme/master/6.png)
+![агрегатор плееров Yohoho-theme](https://raw.githubusercontent.com/spaceplayers/spaceplayers.github.io/master/6.png)
 
 ## как ставить плееры без добавления фильмов на сайт?
 
 не обязательно добавить фильмы. Плееры показываются даже если этого фильма нет на сайте. главное id/title и запрос уходит напрямую к каждому api в списке плееров. на сайте не хранится ни фильм, ни данные, ничего. твой сайт - это ретранслятор на все api!!1
 
-![агрегатор плееров](https://raw.githubusercontent.com/theme-masters/Yohoho-theme/master/7.png)
+![агрегатор плееров](https://raw.githubusercontent.com/spaceplayers/spaceplayers.github.io/master/7.png)
 
 1. дашборд -> модуль плеер -> api
 
@@ -59,15 +59,15 @@ https://www.googleapis.com/youtube/v3/search?part=id,snippet&maxResults=1&key=AI
 
 1. Очищаете базу сайта (будут удалены все фильмы):
 
-![Очищаете базу сайта (будут удалены все фильмы)](https://raw.githubusercontent.com/theme-masters/Yohoho-theme/master/1.png)
+![Очищаете базу сайта (будут удалены все фильмы)](https://raw.githubusercontent.com/spaceplayers/spaceplayers.github.io/master/1.png)
 
 2. Делаете основным ID КиноПоиска:
 
-![Делаете основным ID КиноПоиска](https://raw.githubusercontent.com/theme-masters/Yohoho-theme/master/2.png)
+![Делаете основным ID КиноПоиска](https://raw.githubusercontent.com/spaceplayers/spaceplayers.github.io/master/2.png)
 
 3. Заполняете строки автозаполнения с того источника, который Вам нужен:
 
-![Заполняете строки автозаполнения с того источника, который Вам нужен](https://raw.githubusercontent.com/theme-masters/Yohoho-theme/master/3.png)
+![Заполняете строки автозаполнения с того источника, который Вам нужен](https://raw.githubusercontent.com/spaceplayers/spaceplayers.github.io/master/3.png)
 
 ```
     # Заполнение с API Kodik
@@ -112,11 +112,11 @@ https://www.googleapis.com/youtube/v3/search?part=id,snippet&maxResults=1&key=AI
 
 4. Запускаете получение:
 
-![Запускаете получение](https://raw.githubusercontent.com/theme-masters/Yohoho-theme/master/4.png)
+![Запускаете получение](https://raw.githubusercontent.com/spaceplayers/spaceplayers.github.io/master/4.png)
 
 5. Смотрите как наполняется сайт:
 
-![Смотрите как наполняется сайт](https://raw.githubusercontent.com/theme-masters/Yohoho-theme/master/5.png)
+![Смотрите как наполняется сайт](https://raw.githubusercontent.com/spaceplayers/spaceplayers.github.io/master/5.png)
 
 ## когда на сайт добавится 60 000 - 70 000 фильмов и сериалов, как добавлять все остальные новые и новые фильмы и сериалы автоматически ([от сюда](https://enota.club/threads/sozdanie-onlajn-kinoteatra-s-doramami-anime-avtodobavlenie-novyx-20-000-filmov.2999/))?
 
@@ -169,7 +169,7 @@ https://www.googleapis.com/youtube/v3/search?part=id,snippet&maxResults=1&key=AI
 
 # как поставить все балансеры в рунете в плеер ([от сюда](https://enota.club/threads/kak-podkljuchit-videobalanser-hdvb.1781/page-2#post-24906))?
 
-![агрегатор плееров](https://raw.githubusercontent.com/theme-masters/Yohoho-theme/master/7.png)
+![агрегатор плееров](https://raw.githubusercontent.com/spaceplayers/spaceplayers.github.io/master/7.png)
 
 1. дашборд -> модуль плеер -> api
 
@@ -219,8 +219,4 @@ https://get-video-player.com/iframe/[id] ~ [iframe]
 https://get-video-player.com/api?token=TEST&id=id-кинопоиск
 ```
 
-#### инстркуция не является призывом к твоим незаконным действиям ;)
-
-<a href="https://www.buymeacoffee.com/congar" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
-
-<a href="https://patreon.com/congar"><img src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dendel%26type%3Dpledges&style=for-the-badge" /> </a>
+MIT

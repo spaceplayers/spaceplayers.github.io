@@ -1,8 +1,8 @@
-# Space Players
+# Space Players для Cinemapress CMS
 
 ![Space Players](https://i.imgur.com/y8Ukkis.png)
 
-:art: Space Players
+:art: Space Players for Cinemapress CMS
 
 ## Как установить?
 1. Скачать архив с [GitHub](https://github.com/spaceplayers/spaceplayers.github.io/archive/refs/heads/main.zip)
